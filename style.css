@@ -4,13 +4,13 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Ultra', serif;
-    }
+}
 
 html {
 	
     width: 100%;
     height: 100%;
-    background-color: white;
+    background-color: #225127;
     font-family: 'Muli', sans-serif;
 }
 
@@ -92,12 +92,12 @@ button {
     background: #7b8f3d;
     transition: transform .6s cubic-bezier(0.4, 0.0, 0.2, 1);
     backface-visibility: hidden;
-	background-image: url("backcardtemp_small.png"); 
+	background-image: url("backcardtemp_small.png");
 }
 
 .card-back {
     transform: rotateY(180deg) rotateZ(50deg);
-    font-size: 28pt;
+    font-size: 18pt;
     user-select: none;
     text-align: center;
     line-height: 50px;
