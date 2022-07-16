@@ -92,7 +92,7 @@ button {
     background: #7b8f3d;
     transition: transform .6s cubic-bezier(0.4, 0.0, 0.2, 1);
     backface-visibility: hidden;
-/*	background-image: url("backcardtemp_smallnew.png"); */
+	background-image: url("backcardtemp_small.png"); 
 }
 
 .card-back {
