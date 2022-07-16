@@ -61,10 +61,10 @@ button {
 }
 
 .board {
-    padding: 15px;
+    padding: 5px;
     display: grid;
     grid-template-columns: repeat(4, auto);
-    grid-gap: 15px;
+    grid-gap: 5px;
 }
 
 .board-container.flipped .board {
