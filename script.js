@@ -123,8 +123,7 @@ const flipCard = card => {
                     You won!<br />
                     in <span class="highlight">${state.totalFlips}</span> moves.<br />
                     with a time of <span class="highlight">${state.totalTime}</span> seconds.
-				Click here to play again!
-                </span>
+				</span>
             `;
 
             clearInterval(state.loop);
