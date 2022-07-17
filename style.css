@@ -188,4 +188,11 @@ main {
         width: 200px;
         border: solid 1px;
     }
+    .game,
+    main {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
   }
