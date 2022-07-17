@@ -1,40 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<title>Implement Sticky Header and Footer with CSS</title>
-<style>
-</style>
-<link rel="stylesheet" href="style.css" />
-        <script src="script.js" defer></script>
+    <meta charset="utf-8">
+    <title>Implement Sticky Header and Footer with CSS</title>
+    <style>
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
 </head>
+
 <body>
+<header></header>
     <div class="fixed-header">
         <div class="container">
             <nav>
-				<img src="largeicon_c.jpg" width="139" height="93" alt=""/>
+                <img src="largeicon_c.jpg" width="139" height="93" alt="" />
                 <a href="index.html">Home</a>
-				<a href="feedback.html">Feedback</a>
+                <a href="feedback.html">Feedback</a>
             </nav>
         </div>
     </div>
-	<div class="game">
-    <div class="controls">
-                <button>Start</button>
-                <div class="stats">
-                    <div class="moves">0 moves</div>
-                    <div class="timer">time: 0 sec</div>
-                </div>
+</header>
+<main>
+    <div class="game">
+        <div class="controls">
+            <button>Start</button>
+            <div class="stats">
+                <div class="moves">0 moves</div>
+                <div class="timer">time: 0 sec</div>
             </div>
-            <div class="board-container">
-                <div class="board" data-dimension="4"></div>
-                <div class="win">You won!</div>
-            </div>
-			<div> <a href="index.html">play again</a> </div>
-		</div>
-        <div class="fixed-footer">
-            <div class="container">Copyright &copy; 2016 Your Company</div>        
         </div>
-        </body>
+        <div class="board-container">
+            <div class="board" data-dimension="4"></div>
+            <div class="win">You won!</div>
+        </div>
+        <div> <a href="index.html">play again</a> </div>
+    </div>
+</main>
+<footer>
+    <div class="fixed-footer">
+        <div class="container">Copyright &copy; 2016 Your Company</div>
+    </div>
+</footer>
+</body>
 </html>
-
