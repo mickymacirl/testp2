@@ -181,3 +181,11 @@ main {
     width: 300px;
     border: solid 1px;
 }
+
+@media screen and (min-width: 320px) {
+    main {
+        margin: 0 auto;
+        width: 80%;
+        border: solid 1px;
+    }
+  }
