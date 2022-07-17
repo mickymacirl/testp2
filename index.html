@@ -6,10 +6,10 @@
 <style>
     /* Add some padding on document's body to prevent the content
     to go underneath the header and footer */
-  body{        
+ /*   body{        
         padding-top: 60px;
         padding-bottom: 40px;
-    } 
+    } */
     .fixed-header, .fixed-footer{
         text-decoration: solid;
         color: black;
@@ -25,7 +25,8 @@
         bottom: 0;
     }
     .container{
-        width: 80%; 
+        width: 80%;
+        align-items: center;
         margin: 0 auto; /* Center the DIV horizontally */
     }
     nav a{
@@ -48,10 +49,22 @@
             </nav>
         </div>
     </div>
-    <div>
-        <p>Click <a href="index.html">here</a> to play the game!</p>
-    </div>   
-    <div>
+	<div class="game">
+    <div class="controls">
+                <button>Start</button>
+                <div class="stats">
+                    <div class="moves">0 moves</div>
+                    <div class="timer">time: 0 sec</div>
+                </div>
+            </div>
+            <div class="board-container">
+                <div class="board" data-dimension="4"></div>
+                <div class="win">You won!</div>
+            </div>
+			<div> <a href="index.html">play again</a> </div>
+			
+        </div>
+    <div class="container">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
     </div>    
     <div class="fixed-footer">
@@ -59,4 +72,3 @@
     </div>
 </body>
 </html>
-
