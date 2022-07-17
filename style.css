@@ -82,7 +82,8 @@ button {
 }
 
 .board,
-.win {
+.win,
+main {
     border-radius: 5px;
     box-shadow: 0 25px 50px rgb(33 33 33 / 25%);
     background: linear-gradient(70deg,  #225127 0%,#e0a026 50%,#fcc700 100%);
