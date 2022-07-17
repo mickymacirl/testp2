@@ -183,7 +183,8 @@ main {
 }
 
 @media screen and (min-width: 320px) {
-    main {
+    main,
+    .game {
         margin: 0 auto;
         width: 80%;
         border: solid 1px;
