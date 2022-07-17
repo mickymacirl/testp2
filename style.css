@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -7,42 +8,49 @@
 }
 
 html {
-	
+
     width: 100%;
     height: 100%;
-    background: linear-gradient(70deg,  #225127 0%,#e0a026 50%,#fcc700 100%);
+    background: linear-gradient(70deg, #225127 0%, #e0a026 50%, #fcc700 100%);
     font-family: 'Muli', sans-serif;
 }
 
-body{        
-        padding-top: 60px;
-        padding-bottom: 40px;
-    }
-    .fixed-header, .fixed-footer{
-        text-decoration: solid;
-        color: black;
-        width: 100%;
-        position: fixed;        
-        background: linear-gradient(12deg,  #225127 0%,#e0a026 50%,#fcc700 100%);
-        padding: 10px 0;
-    }
-    .fixed-header{
-        top: 0;
-    }
-    .fixed-footer{
-        bottom: 0;
-    }
-    .container{
-        width: 80%;
-        align-items: center;
-        margin: 0 auto; /* Center the DIV horizontally */
-    }
-    nav a{
-        color: #fff;
-        text-decoration: none;
-        padding: 7px 25px;
-        display: inline-block;
-    }
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.fixed-header,
+.fixed-footer {
+    text-decoration: solid;
+    color: black;
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(12deg, #225127 0%, #e0a026 50%, #fcc700 100%);
+    padding: 10px 0;
+}
+
+.fixed-header {
+    top: 0;
+}
+
+.fixed-footer {
+    bottom: 0;
+}
+
+.container {
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+    /* Center the DIV horizontally */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
 
 .game,
 main {
@@ -87,7 +95,7 @@ button {
 main {
     border-radius: 5px;
     box-shadow: 0 25px 50px rgb(33 33 33 / 25%);
-    background: linear-gradient(70deg,  #225127 0%,#e0a026 50%,#fcc700 100%);
+    background: linear-gradient(70deg, #225127 0%, #e0a026 50%, #fcc700 100%);
     transition: transform .6s cubic-bezier(0.4, 0.0, 0.2, 1);
     backface-visibility: hidden;
 }
@@ -118,13 +126,13 @@ main {
 .card-back {
     position: absolute;
     border-radius: 5px;
-	align-content: center;
+    align-content: center;
     width: 100%;
     height: 100%;
     background: #7b8f3d;
     transition: transform .6s cubic-bezier(0.4, 0.0, 0.2, 1);
     backface-visibility: hidden;
-	background-image: url("backcardtemp_small.png");
+    background-image: url("backcardtemp_small.png");
 }
 
 .card-back {
@@ -151,7 +159,7 @@ main {
     width: 100%;
     height: 100%;
     text-align: center;
-    background:#7b8f3d;
+    background: #7b8f3d;
     transform: rotateY(180deg) rotateZ(50deg);
 }
 
@@ -172,6 +180,4 @@ main {
     margin: 0 auto;
     width: 300px;
     border: solid 1px;
-  }
-
-  
+}
