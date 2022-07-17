@@ -165,3 +165,10 @@ button {
 .highlight {
     color: #6f00fc;
 }
+
+main {
+    position: absolute;
+    margin: 0 auto;
+    width: 400px;
+    border: solid 1px;
+  }
