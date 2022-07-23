@@ -39,7 +39,21 @@
         <div class="container">
             <div><img src="largeicon_c.jpg" width="139" height="93" alt="" /></div>
         <div> <a href="game.html">play again</a> </div>
-
+        <h1>JavaScript localStorage demo</h1>
+        <textarea id="myTextarea" rows="10" cols="80"></textarea>
+        <p></p>
+        <button onclick="mySave()">Save</button>
+        <button onclick="myLoad()">Load</button>
+        <script>
+          function mySave() {
+            var myContent = document.getElementById("myTextarea").value;
+            localStorage.setItem("myContent", myContent);
+          }
+          function myLoad() {
+            var myContent = localStorage.getItem("myContent");
+            document.getElementById("myTextarea").value = myContent;
+          }
+        </script>
     </main>
     <footer>
         <div class="fixed-footer">
