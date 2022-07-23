@@ -131,6 +131,15 @@ const flipCard = card => {
     }
 };
 
+function submit() {
+    var names = document.getElementById("names").value;
+    var allNames = JSON.parse(localStorage.getItem("allNames")) || [];
+    allNames.push(names);
+    localStorage.setItem("allNames", JSON.stringify(allNames));
+    document.getElementById("names").value = '';
+    document.getElementById("namesList").innerHTML = localStorage.getItem("allNames");
+  };
+
 const attachEventListeners = () => {
     document.addEventListener('click', event => {
         const eventTarget = event.target;

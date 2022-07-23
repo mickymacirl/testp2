@@ -22,6 +22,8 @@
         </div>
     </header>
     <main>
+        <input id="names" placeholder="Enter Your Party's names">
+        <button onclick="submit()">Submit</button>
         <div class="container">
             <p>
                 <h1>HOW TO PLAY:</h1>
@@ -40,20 +42,7 @@
             <div><img src="largeicon_c.jpg" width="139" height="93" alt="" /></div>
         <div> <a href="game.html">play again</a> </div>
         
-        <textarea id="myTextarea" rows="10" cols="80"></textarea>
-        <p></p>
-        <button onclick="mySave()">Save</button>
-        <button onclick="myLoad()">Load</button>
-        <script>
-          function mySave() {
-            var myContent = document.getElementById("myTextarea").value;
-            localStorage.setItem("myContent", myContent);
-          }
-          function myLoad() {
-            var myContent = localStorage.getItem("myContent");
-            document.getElementById("myTextarea").value = myContent;
-          }
-        </script>
+     
     </main>
     <footer>
         <div class="fixed-footer">
