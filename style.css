@@ -40,7 +40,7 @@ body {
 
 .container {
     width: 100%;
-    align: left;
+    align-items: center;
     margin: 0 auto;
 }
 
