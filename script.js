@@ -145,16 +145,5 @@ const attachEventListeners = () => {
     });
 };
 
-function submit() {
-    var names = document.getElementById("names").value;
-    var allNames = JSON.parse(localStorage.getItem("allNames")) || [];
-    allNames.push(names);
-    localStorage.setItem("allNames", JSON.stringify(allNames));
-    document.getElementById("names").value = '';
-    document.getElementById("namesList").innerHTML = localStorage.getItem("allNames");
-  }
-  
-  document.getElementById("namesList").innerHTML = localStorage.getItem("allNames");
-
 generateGame();
 attachEventListeners();
