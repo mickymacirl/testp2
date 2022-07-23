@@ -52,8 +52,7 @@ nav a {
     display: inline-block;
 }
 
-.game,
-main {
+.game {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -91,8 +90,7 @@ button {
 }
 
 .board,
-.win,
-main {
+.win {
     border-radius: 5px;
     width: auto;
     box-shadow: 0 25px 50px rgb(33 33 33 / 25%);
