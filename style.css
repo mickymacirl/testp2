@@ -212,18 +212,3 @@ main {
     transform: scale(0.85);
   }
 
-@media screen and (min-width: 320px) {
-    main {
-        margin: 0 auto;
-        width: 200px;
-        border: solid 1px;
-    }
-
-    .game,
-    main {
-        position: absolute;
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-}
